@@ -10,6 +10,7 @@
 	* So i decided to temperorily stop this course from further moving.
 	* I have downloaded the cisco packet tracer , and next thing i am gonna do handson practise and try to do some really intresting stuffs.
 	* After that i should move to the next chapter 5.
+
 ![Check-Point 1 Score](images/checkpoint1-2025-12-28.png)
 
 # ------------------------------------------------------------------------------------------
