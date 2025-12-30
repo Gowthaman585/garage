@@ -1,4 +1,4 @@
-\# Network Basics - CISCO
+# Network Basics - CISCO
 	* Today i have completed the first checkpoint test in the course network basics.
 	* Most of the content upto this i have already acknowledged from my own college syllabus but i took this as an re-Learning chance.
 	* But today i get to know about few more new or get more insight about something's like
