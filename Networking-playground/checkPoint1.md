@@ -1,4 +1,4 @@
-# Network Basics - CISCO
+\# Network Basics - CISCO
 	* Today i have completed the first checkpoint test in the course network basics.
 	* Most of the content upto this i have already acknowledged from my own college syllabus but i took this as an re-Learning chance.
 	* But today i get to know about few more new or get more insight about something's like
@@ -23,6 +23,6 @@
 	* Things like straight co-axial cable connection and configuting wirelss router connection which has not ever done by me but today i have completed.
 ![First connected the Tv from the cable separater which has both internet and Tv signals](images/Screenshot-from-2025-12-30:19-46-23.png)
 ![Configuring the wirels router name and password and their associated settings](images/Screenshot-from-2025-12-30:19-57-11.png)
-![Successfully connecting the wirelss wifi connection with router and laptop](images/Screenshot-from-2025-12-30:19-57-11.png)
-![Completed image](images/Screenshot-from-2025-12-30:19-57-11.png)
+![Successfully connecting the wirelss wifi connection with router and laptop](images/Screenshot-from-2025-12-30:20-39-12.png)
+![Completed image](images/Screenshot-from-2025-12-30:20-40-40.png)
 
