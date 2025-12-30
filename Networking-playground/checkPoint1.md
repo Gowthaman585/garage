@@ -21,8 +21,8 @@
 	* Today i have complete the first activity given under the course Network basics in cisco.
 	* Even some of the things i have already practised in college lab practicals , today i felt much more realistic experiences.
 	* Things like straight co-axial cable connection and configuting wirelss router connection which has not ever done by me but today i have completed.
-![First connected the Tv from the cable separater which has both internet and Tv signals](images/'Screenshot from 2025-12-30 19-46-23.png')
-![Configuring the wirels router name and password and their associated settings](images/'Screenshot from 2025-12-30 19-57-11.png')
-![Successfully connecting the wirelss wifi connection with router and laptop](images/'Screenshot from 2025-12-30 19-57-11.png')
-![Completed image](images/'Screenshot from 2025-12-30 19-57-11.png')
+![First connected the Tv from the cable separater which has both internet and Tv signals](images/Screenshot-from-2025-12-30:19-46-23.png)
+![Configuring the wirels router name and password and their associated settings](images/Screenshot-from-2025-12-30:19-57-11.png)
+![Successfully connecting the wirelss wifi connection with router and laptop](images/Screenshot-from-2025-12-30:19-57-11.png)
+![Completed image](images/Screenshot-from-2025-12-30:19-57-11.png)
 
