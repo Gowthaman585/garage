@@ -29,7 +29,7 @@
 # ------------------------------------------------------------------------------------------
 
 # 2025-12-31
-# Completed a small end-test in chapter 6 "Communication Principles"
+# Completed a small end-test in chapter 5 "Communication Principles"
 	--- This chapter almost 90% already well covered by me in college.
 	--- by the sysllabus itself. The college syllabus lesson Networking Principles
 	--- is were already thought me about almost all the topics.
@@ -37,3 +37,9 @@
 	* as i already well known to this area i just spend today 5 minutes to complete this chapter and i took the end test.
 ![End test score in chapter 5](images/Screenshot-from-2025-12-31:21-35-47.png)
 
+# Followed by chapter 5 -> chapter 6
+	* This chapter is all about Network media.
+	* Mainly three types 1)Co-axial,2)Twister Pair Cable,3)Fibre Optic cables.
+	* Since i knew about these already i easily catup instantly and complete the test too.
+![Test score of chapter 6](images/Pasted-image.png)
+# ------------------------------------------------------------------------------------------
