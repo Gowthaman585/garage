@@ -26,3 +26,14 @@
 ![Successfully connecting the wirelss wifi connection with router and laptop](images/Screenshot-from-2025-12-30:20-39-12.png)
 ![Completed image](images/Screenshot-from-2025-12-30:20-40-40.png)
 
+# ------------------------------------------------------------------------------------------
+
+# 2025-12-31
+# Completed a small end-test in chapter 6 "Communication Principles"
+	--- This chapter almost 90% already well covered by me in college.
+	--- by the sysllabus itself. The college syllabus lesson Networking Principles
+	--- is were already thought me about almost all the topics.
+	* Majaority of this lesson is about OSI 7 layers and TCP/IP protocol stack's.
+	* as i already well known to this area i just spend today 5 minutes to complete this chapter and i took the end test.
+![End test score in chapter 5](images/Screenshot-from-2025-12-31:21-35-47.png)
+
