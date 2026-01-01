@@ -104,6 +104,7 @@
 ![ Chapter 11 score](images/Screenshot-from-2026-01-01:15-56-46.png)
 # ---------------------------------------------------------------------------------------------
 
+# 2026-01-01
 # CheckPoint test : 3
 	I have done some mistakes during this test. 
 	Silly misunderstanding of the question leads to score one my lowest scores in this course with just 75%.
@@ -114,4 +115,6 @@
 
 # 2026-01-01
 # Chapter 12
-	
+	This chapter really intreseted me by explaining about the use of NAT purpose in internet.
+	This chapter clearly explains how NAT works to help the device to commuincate outside of it network.
+![Chapter 12 score](images/Screenshot-from-2026-01-01:16-48-53.png)
