@@ -72,8 +72,38 @@
 
 # 2026-01-01
 # Chapter 9
-	This chapter helped me to strongly practise me with public,private and classes of ip addresses.
+	This chapter helped me to strongly practise me with public,private and classes of ipv4 addresses.
 	I can able to re-memorize the ipaddress ranges and classes once again.
 	This chapter helps me to clearly understand why subnetting is important in ip adressing.
 		* to avoid trafiic slow down due to un-necessary broadcast traffic to unwanted devices.
 ![Chapter 9 score](images/Screenshot-from-2026-01-01:14-42-58.png)
+# -------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Chapter 10 
+	This chapter is for ipv6.
+	I get know about multiple things about in ipv6 today:
+		* ipv6 is represented as hextets.(it's unofficial term).
+		* Each hextet is 16 bit length and there are 8 hextet in ipv6.
+		Rules for ipv6 representation :
+			* Remove all leading zeros
+			* we can use "::" for multiple hextet uses '0000' as their value.
+![Chapter 10 score](images/Screenshot-from-2026-01-01:15-19-43.png)
+# --------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Chapter 11
+	This chapter explain about DHCP protocols how it works etc..
+	I can able to get to know how a client recives the ip addpress dynamically via DHCP server.
+		* The client broadcast a message "DHCP discover" to a broadcast ip address of 255.255.255.255.
+		* The DHCP server recieves the message and replyb "DHCP OFFER" with the client ip address.
+		* The client again request the server for a particular lease time and confirmation as "DHCP request".
+		* The server confirms with the lease time and usage of ip with "DHCP pack".
+
+	--- At the first time i have failed in this chapter end-test but i again tries and i correct my mistakes to pass in this text with 82%.
+![ Chapter 11 score](images/Screenshot-from-2026-01-01:15-56-46.png)
+# ---------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Chapter 12
+	
