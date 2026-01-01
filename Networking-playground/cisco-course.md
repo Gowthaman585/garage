@@ -68,3 +68,12 @@
 	This chapter is all about intro ipV4 addressing.
 	I have more then enough stuffs to study this so i quickly wrap this chapter within 10 minutes
 ![Chapter 8 score](images/Screenshot-from-2026-01-01:13-00-37.png)
+# ------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Chapter 9
+	This chapter helped me to strongly practise me with public,private and classes of ip addresses.
+	I can able to re-memorize the ipaddress ranges and classes once again.
+	This chapter helps me to clearly understand why subnetting is important in ip adressing.
+		* to avoid trafiic slow down due to un-necessary broadcast traffic to unwanted devices.
+![Chapter 9 score](images/Screenshot-from-2026-01-01:14-42-58.png)
