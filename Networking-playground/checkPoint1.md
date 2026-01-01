@@ -54,3 +54,11 @@
 		* Switch MAC Addresee tables building and frame forwading decision strategies.
 	Yeah! Again all these concepts are wll known to me took a quick over-through by this and test my understanding level by the test at end.
 ![Chapter 7 test score](images/Screenshot-from-2026-01-01:11-05-59.png)
+# ------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# CheckPoint Test : 2
+	I took a checkPoint test 2 to check myu level of understanding upto what i learned from all of those
+	I scored 91% . well! let move to next...
+![CheckPoint 2 test score](images/Screenshot-from-2026-01-01:11-39-19.png)
+# ------------------------------------------------------------------------------------------
