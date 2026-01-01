@@ -104,6 +104,14 @@
 ![ Chapter 11 score](images/Screenshot-from-2026-01-01:15-56-46.png)
 # ---------------------------------------------------------------------------------------------
 
+# CheckPoint test : 3
+	I have done some mistakes during this test. 
+	Silly misunderstanding of the question leads to score one my lowest scores in this course with just 75%.
+	but it okey for me , that i have passed the test now.
+	Now go to next ..
+![Checkpoint 3 score](images/Screenshot-from-2026-01-01:16-16-40.png)
+# ----------------------------------------------------------------------------------------------
+
 # 2026-01-01
 # Chapter 12
 	
