@@ -62,3 +62,9 @@
 	I scored 91% . well! let move to next...
 ![CheckPoint 2 test score](images/Screenshot-from-2026-01-01:11-39-19.png)
 # ------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Chapter 8
+	This chapter is all about intro ipV4 addressing.
+	I have more then enough stuffs to study this so i quickly wrap this chapter within 10 minutes
+![Chapter 8 score](images/Screenshot-from-2026-01-01:13-00-37.png)
