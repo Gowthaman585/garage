@@ -43,3 +43,14 @@
 	* Since i knew about these already i easily catup instantly and complete the test too.
 ![Test score of chapter 6](images/Pasted-image.png)
 # ------------------------------------------------------------------------------------------
+
+# 2026-01-01
+# Moved to chapter 7 
+	This chapter is completely took over about the Data-Link layer of the OSI model.
+	It explain the Access layer completely
+	It includes concepts of 
+		* Data encapsulation
+		* Ethernet frame header , and Frames representation.
+		* Switch MAC Addresee tables building and frame forwading decision strategies.
+	Yeah! Again all these concepts are wll known to me took a quick over-through by this and test my understanding level by the test at end.
+![Chapter 7 test score](images/Screenshot-from-2026-01-01:11-05-59.png)
