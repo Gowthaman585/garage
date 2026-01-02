@@ -118,3 +118,12 @@
 	This chapter really intreseted me by explaining about the use of NAT purpose in internet.
 	This chapter clearly explains how NAT works to help the device to commuincate outside of it network.
 ![Chapter 12 score](images/Screenshot-from-2026-01-01:16-48-53.png)
+
+# 2026-01-02
+# Second Activity of this course for better understanding about NAT
+	-- Successfully completed the NAT chapter activity
+	-- Here i newly get to know about PDU Protocol Data unit which is send over the end-device to a web server outside of local network
+	-- with the help of public ip adrress provided by the ISP to the router internet port.
+
+![Activity 2 picture of completion](images/Screenshot-from-2026-01-02:21-46-59.png)
+![Activity 2 picture of completion](images/Screenshot-from-2026-01-02:21-48-33.png)
