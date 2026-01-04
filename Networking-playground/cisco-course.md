@@ -127,3 +127,18 @@
 
 ![Activity 2 picture of completion](images/Screenshot-from-2026-01-02:21-46-59.png)
 ![Activity 2 picture of completion](images/Screenshot-from-2026-01-02:21-48-33.png)
+# ---------------------------------------------------------------------------------------------
+
+# 2026-01-04
+# Chapter 13
+	Today i get know about the purpose of ARP (Address Resolution Protocol)
+	Even though i introduced with ARP i just known about the full-form but today i understand the real purpose and flow of work of ARP
+	How the brodcast the ARP request to the switches and routers with the target ip and flodding the broadcast into local network with FFFF:FFFF:FFFF:
+	- Also i have completed a small activity for this chapter in cisco
+	- The activity may look very small but every answer i need to look deep to retrive the correct answer
+	- offcourse it quiet challenging for me little.
+	I also completed the end test for this chapter i failed twice and then i realize my mistakes and tried it again.
+![Chapter 13 score](images/Screenshot-from-2026-01-04:15-45-18.png)
+# Activity : 3
+![Chapter 13 activity completion](images/Screenshot-from-2026-01-04:15-15-58.png)
+# -----------------------------------------------------------------------------------------------
