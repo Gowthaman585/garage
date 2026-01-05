@@ -142,3 +142,18 @@
 # Activity : 3
 ![Chapter 13 activity completion](images/Screenshot-from-2026-01-04:15-15-58.png)
 # -----------------------------------------------------------------------------------------------
+
+# 2026-01-05
+# Chapter 14
+	In this chapter lot of packet tracer activity has done.
+	Got with the crystal clear understanding of how router is used in local network to separat them in different broadcast domain.
+	How end-point device find the destination mac addrress if it is not known , it was simulated in packet tracer clearly.
+	That help a lot to understand clearly
+![Chapter 14 Activity 1 completion](images/Screenshot-from-2026-01-05:20-54-15.png)
+![Chapter 14 Activity 1 completion](images/Screenshot-from-2026-01-05:21-11-52.png)
+
+# End test of chapter 14
+![Chapter 14 score](images/Screenshot-from-2026-01-05:21-18-19.png)
+
+# CheckPoint test 4 :
+![CheckPoint 4 score](images/)
