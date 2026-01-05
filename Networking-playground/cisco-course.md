@@ -141,7 +141,7 @@
 ![Chapter 13 score](images/Screenshot-from-2026-01-04:15-45-18.png)
 # Activity : 3
 ![Chapter 13 activity completion](images/Screenshot-from-2026-01-04:15-15-58.png)
-# -----------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------
 
 # 2026-01-05
 # Chapter 14
@@ -156,4 +156,6 @@
 ![Chapter 14 score](images/Screenshot-from-2026-01-05:21-18-19.png)
 
 # CheckPoint test 4 :
-![CheckPoint 4 score](images/)
+	Tested my memory ability that i properly understand the question and pick the right answer in the 4th checkpoint.
+![CheckPoint 4 score](images/Screenshot-from-2026-01-05:22-00-05.png)
+# ----------------------------------------------------------------------------------------------
