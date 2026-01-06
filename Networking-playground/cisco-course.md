@@ -180,3 +180,7 @@
 
 # Chapter 17
 	
+	The best intresting hand's on chapter.
+	Trouble shooting networking error's and problems.
+# Activity 1 :  configured a PC with a incorrect ip in a LAN and correclty identifies the DNS server ip and configured the wrong PC.
+![Activity completion](images/Screenshot-from-2026-01-06:21-59-16.png)
