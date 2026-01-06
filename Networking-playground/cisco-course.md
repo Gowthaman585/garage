@@ -159,3 +159,11 @@
 	Tested my memory ability that i properly understand the question and pick the right answer in the 4th checkpoint.
 ![CheckPoint 4 score](images/Screenshot-from-2026-01-05:22-00-05.png)
 # ----------------------------------------------------------------------------------------------
+
+# 2026-01-06
+# Chapter 15
+	Today i look through again about the TCP && UDP and port number's.
+	I already have a good understanding about those ares so i quickly go through this area and completed the chapter.
+![Chapter 16 score](images/Screenshot-from-2026-01-06:20-24-11.png)
+
+
