@@ -166,4 +166,17 @@
 	I already have a good understanding about those ares so i quickly go through this area and completed the chapter.
 ![Chapter 16 score](images/Screenshot-from-2026-01-06:20-24-11.png)
 
+# Chapter 16 
+	The biggest chapter but with all well known concpets which include's
+		* Server-Client protocols.
+		* Network Application Systems.
+		* DNS (DomainNameServer)
+		* DHCP (DynamicHostConfigurationProtocol)
+		* SSH && Telnet
+		* FTP && HTTP
+		* Email protocol's etc...
+	Most of the concepts i have already hand's on several times so use this as a recall chapter for me.
+![Chapter 16 score](images/Screenshot-from-2026-01-06:21-40-18.png)
 
+# Chapter 17
+	
