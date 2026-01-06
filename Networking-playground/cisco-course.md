@@ -183,4 +183,12 @@
 	The best intresting hand's on chapter.
 	Trouble shooting networking error's and problems.
 # Activity 1 :  configured a PC with a incorrect ip in a LAN and correclty identifies the DNS server ip and configured the wrong PC.
+	*  Scenario : 
+		-- One of the PC has misconfigured ip configaration's find out and then sort out.
 ![Activity completion](images/Screenshot-from-2026-01-06:21-59-16.png)
+
+# Activity 2 : Configuring a PC with misconfigured DNS configurations.
+	* Scenario :
+		-- The PC can able to ping the DNS ip successfully.
+		-- also it can reach the default gateway but can't successfully reach the server when i ping with uri
+![Activity completion](images/Screenshot-from-2026-01-06:22-37-20.png)
