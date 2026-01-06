@@ -192,3 +192,6 @@
 		-- The PC can able to ping the DNS ip successfully.
 		-- also it can reach the default gateway but can't successfully reach the server when i ping with uri
 ![Activity completion](images/Screenshot-from-2026-01-06:22-37-20.png)
+
+# Chapter 17 end test
+![Chapter 17 end test score](images/Screenshot-from-2026-01-06:22-53-17.png)
