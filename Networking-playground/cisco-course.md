@@ -195,3 +195,8 @@
 
 # Chapter 17 end test
 ![Chapter 17 end test score](images/Screenshot-from-2026-01-06:22-53-17.png)
+
+# ChechPoint 5 Completion : 95%
+![Checkpoint 5 score](images/Screenshot-from-2026-01-06:23-15-11.png)
+# ---------------------------------------------------------------------------------------------
+
