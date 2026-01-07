@@ -200,3 +200,9 @@
 ![Checkpoint 5 score](images/Screenshot-from-2026-01-06:23-15-11.png)
 # ---------------------------------------------------------------------------------------------
 
+# 2026-01-07
+# Networks Basics Final Course Exam
+	Completed the course with 78% 
+	Through this course more then plain theory learning i have done multiple activity in packet tracer and trouble-shooted network issues "Feels more confident to say i have strong base in Networking".
+![Final Exam Score](images/Screenshot-from-2026-01-07:12-05-06.png)
+# ---------------------------------------------------------------------------------------------
