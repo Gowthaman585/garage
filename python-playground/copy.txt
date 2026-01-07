@@ -1,0 +1,554 @@
+2025-11-27T17:00:50.215373+00:00 server passwd[810]: password for 'root' changed by 'root'
+2025-11-27T17:00:50.215384+00:00 server groupadd[817]: group added to /etc/group: name=admin, GID=1000
+2025-11-27T17:00:50.215388+00:00 server groupadd[817]: group added to /etc/gshadow: name=admin
+2025-11-27T17:00:50.215391+00:00 server groupadd[817]: new group: name=admin, GID=1000
+2025-11-27T17:00:50.215395+00:00 server useradd[823]: new user: name=admin, UID=1000, GID=1000, home=/home/admin, shell=/bin/bash, from=none
+2025-11-27T17:00:50.215398+00:00 server useradd[823]: add 'admin' to group 'sudo'
+2025-11-27T17:00:50.215402+00:00 server useradd[823]: add 'admin' to shadow group 'sudo'
+2025-11-27T17:00:50.215406+00:00 server passwd[831]: password for 'admin' changed by 'root'
+2025-11-27T17:00:50.216651+00:00 server systemd-logind[863]: New seat seat0.
+2025-11-27T17:00:50.216655+00:00 server systemd-logind[863]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-27T17:00:50.216665+00:00 server systemd-logind[863]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-11-27T17:00:50.216669+00:00 server systemd-logind[863]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-11-27T17:00:50.216729+00:00 server polkitd[852]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-27T17:00:50.216732+00:00 server polkitd[852]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-27T17:00:50.216736+00:00 server polkitd[852]: Finished loading, compiling and executing 6 rules
+2025-11-27T17:00:50.216742+00:00 server polkitd[852]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-27T17:05:01.994542+00:00 server CRON[1104]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-27T17:05:01.997485+00:00 server CRON[1104]: pam_unix(cron:session): session closed for user root
+2025-11-27T17:06:21.887001+00:00 server login[980]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-27T17:06:21.887234+00:00 server login[980]: PAM adding faulty module: pam_lastlog.so
+2025-11-27T17:06:24.495544+00:00 server login[980]: pam_unix(login:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-27T17:06:24.506226+00:00 server systemd-logind[863]: New session 2 of user admin.
+2025-11-27T17:06:24.534143+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-27T17:06:36.390099+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+2025-11-27T17:06:36.391027+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-27T17:06:45.527764+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-27T17:07:09.862767+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2025-11-27T17:07:09.863607+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-27T17:07:57.350546+00:00 server useradd[1789]: new user: name=sshd, UID=109, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-11-27T17:08:02.264394+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-27T17:08:19.714099+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/shutdown now
+2025-11-27T17:08:19.714782+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-27T17:08:19.719222+00:00 server systemd-logind[863]: The system will power off now!
+2025-11-27T17:08:19.734794+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-27T17:08:19.744481+00:00 server systemd-logind[863]: System is powering down.
+2025-11-28T06:26:42.230050+00:00 server systemd-logind[637]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-28T06:26:42.230054+00:00 server systemd-logind[637]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-11-28T06:26:42.230057+00:00 server systemd-logind[637]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-11-28T06:26:42.230067+00:00 server systemd-logind[637]: New seat seat0.
+2025-11-28T06:26:42.269187+00:00 server polkitd[593]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-28T06:26:42.270452+00:00 server polkitd[593]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-28T06:26:42.283645+00:00 server polkitd[593]: Finished loading, compiling and executing 6 rules
+2025-11-28T06:26:42.285012+00:00 server polkitd[593]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-28T06:26:47.384286+00:00 server login[864]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-28T06:26:47.384481+00:00 server login[864]: PAM adding faulty module: pam_lastlog.so
+2025-11-28T06:26:49.867886+00:00 server login[864]: pam_unix(login:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T06:26:49.925648+00:00 server systemd-logind[637]: New session 1 of user admin.
+2025-11-28T06:26:49.950066+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T06:27:04.354158+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-11-28T06:27:04.354778+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:27:05.134958+00:00 server sshd[995]: Server listening on 0.0.0.0 port 22.
+2025-11-28T06:27:05.135035+00:00 server sshd[995]: Server listening on :: port 22.
+2025-11-28T06:27:05.135967+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:27:30.539723+00:00 server sudo:    admin : TTY=tty1 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/nano sshd_config
+2025-11-28T06:27:30.540562+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:28:19.672707+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:29:18.467941+00:00 server sudo:    admin : TTY=tty1 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T06:29:18.468673+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:29:18.475220+00:00 server sshd[995]: Received signal 15; terminating.
+2025-11-28T06:29:34.015686+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:29:34.434255+00:00 server sshd[1026]: Server listening on 0.0.0.0 port 22.
+2025-11-28T06:29:34.434581+00:00 server sshd[1026]: Server listening on :: port 22.
+2025-11-28T06:29:42.119480+00:00 server sudo:    admin : TTY=tty1 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T06:29:42.120245+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:29:42.127521+00:00 server sshd[1026]: Received signal 15; terminating.
+2025-11-28T06:29:42.152492+00:00 server sshd[1036]: Server listening on 0.0.0.0 port 22.
+2025-11-28T06:29:42.152561+00:00 server sshd[1036]: Server listening on :: port 22.
+2025-11-28T06:29:42.154683+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:35:01.162080+00:00 server CRON[1138]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T06:35:01.164747+00:00 server CRON[1138]: pam_unix(cron:session): session closed for user root
+2025-11-28T06:36:44.115046+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T06:36:44.124045+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:36:44.124531+00:00 server sshd[1036]: Received signal 15; terminating.
+2025-11-28T06:36:44.146115+00:00 server sshd[1161]: Server listening on 0.0.0.0 port 22.
+2025-11-28T06:36:44.146852+00:00 server sshd[1161]: Server listening on :: port 22.
+2025-11-28T06:36:44.147844+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:37:01.453687+00:00 server sshd[1162]: Connection closed by authenticating user admin 10.0.2.2 port 49408 [preauth]
+2025-11-28T06:38:00.732283+00:00 server sshd[1172]: Connection closed by authenticating user root 10.0.2.2 port 59510 [preauth]
+2025-11-28T06:38:03.521671+00:00 server sshd[1174]: Connection closed by authenticating user root 10.0.2.2 port 59514 [preauth]
+2025-11-28T06:38:03.664706+00:00 server sshd[1176]: Connection closed by authenticating user root 10.0.2.2 port 59172 [preauth]
+2025-11-28T06:41:07.018503+00:00 server sshd[1207]: Connection closed by authenticating user root 10.0.2.2 port 37314 [preauth]
+2025-11-28T06:41:07.158910+00:00 server sshd[1209]: Connection closed by authenticating user root 10.0.2.2 port 37316 [preauth]
+2025-11-28T06:41:07.303272+00:00 server sshd[1211]: Connection closed by authenticating user root 10.0.2.2 port 37324 [preauth]
+2025-11-28T06:41:29.852039+00:00 server sshd[1215]: Connection closed by authenticating user root 10.0.2.2 port 45556 [preauth]
+2025-11-28T06:45:01.401625+00:00 server CRON[1240]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T06:45:01.403594+00:00 server CRON[1240]: pam_unix(cron:session): session closed for user root
+2025-11-28T06:55:01.156163+00:00 server CRON[1311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T06:55:01.158551+00:00 server CRON[1311]: pam_unix(cron:session): session closed for user root
+2025-11-28T06:55:30.358934+00:00 server sudo:    admin : TTY=tty1 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/nano sshd_config
+2025-11-28T06:55:30.368334+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:55:46.425042+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:55:49.896497+00:00 server sudo:    admin : TTY=tty1 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T06:55:49.897058+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T06:55:49.911613+00:00 server sshd[1161]: Received signal 15; terminating.
+2025-11-28T06:55:49.931876+00:00 server sshd[1328]: Server listening on 0.0.0.0 port 22.
+2025-11-28T06:55:49.931968+00:00 server sshd[1328]: Server listening on :: port 22.
+2025-11-28T06:55:49.934580+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T06:56:24.141363+00:00 server sshd[1334]: Connection closed by authenticating user admin 10.0.2.2 port 41166 [preauth]
+2025-11-28T06:56:24.282968+00:00 server sshd[1336]: Connection closed by authenticating user admin 10.0.2.2 port 41180 [preauth]
+2025-11-28T06:56:31.308614+00:00 server sshd[1338]: Accepted password for admin from 10.0.2.2 port 41184 ssh2
+2025-11-28T06:56:31.309892+00:00 server sshd[1338]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T06:56:31.313406+00:00 server systemd-logind[637]: New session 6 of user admin.
+2025-11-28T06:56:31.616249+00:00 server sshd[1394]: Received disconnect from 10.0.2.2 port 41184:11: disconnected by user
+2025-11-28T06:56:31.616386+00:00 server sshd[1394]: Disconnected from user admin 10.0.2.2 port 41184
+2025-11-28T06:56:31.616794+00:00 server sshd[1338]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T06:56:31.619378+00:00 server systemd-logind[637]: Session 6 logged out. Waiting for processes to exit.
+2025-11-28T06:56:31.620205+00:00 server systemd-logind[637]: Removed session 6.
+2025-11-28T06:59:36.006730+00:00 server sshd[1422]: Connection closed by authenticating user admin 10.0.2.2 port 40082 [preauth]
+2025-11-28T06:59:48.851494+00:00 server sshd[1424]: Accepted publickey for admin from 10.0.2.2 port 45098 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T06:59:48.853121+00:00 server sshd[1424]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T06:59:48.856356+00:00 server systemd-logind[637]: New session 7 of user admin.
+2025-11-28T06:59:49.165615+00:00 server sshd[1482]: Received disconnect from 10.0.2.2 port 45098:11: disconnected by user
+2025-11-28T06:59:49.165738+00:00 server sshd[1482]: Disconnected from user admin 10.0.2.2 port 45098
+2025-11-28T06:59:49.165778+00:00 server sshd[1424]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T06:59:49.168791+00:00 server systemd-logind[637]: Session 7 logged out. Waiting for processes to exit.
+2025-11-28T06:59:49.169512+00:00 server systemd-logind[637]: Removed session 7.
+2025-11-28T07:00:36.761637+00:00 server sshd[1491]: Accepted publickey for admin from 10.0.2.2 port 49928 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T07:00:36.763300+00:00 server sshd[1491]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T07:00:36.766649+00:00 server systemd-logind[637]: New session 8 of user admin.
+2025-11-28T07:01:38.442614+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2025-11-28T07:01:38.451309+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:01:52.458145+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:02:17.730096+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T07:02:17.730757+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:02:17.737527+00:00 server sshd[1328]: Received signal 15; terminating.
+2025-11-28T07:02:17.770581+00:00 server sshd[1570]: Server listening on 0.0.0.0 port 22.
+2025-11-28T07:02:17.771833+00:00 server sshd[1570]: Server listening on :: port 22.
+2025-11-28T07:02:17.772198+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:02:20.572753+00:00 server sshd[1540]: Received disconnect from 10.0.2.2 port 49928:11: disconnected by user
+2025-11-28T07:02:20.572914+00:00 server sshd[1540]: Disconnected from user admin 10.0.2.2 port 49928
+2025-11-28T07:02:20.573446+00:00 server sshd[1491]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T07:02:20.576825+00:00 server systemd-logind[637]: Session 8 logged out. Waiting for processes to exit.
+2025-11-28T07:02:20.577454+00:00 server systemd-logind[637]: Removed session 8.
+2025-11-28T07:02:34.303112+00:00 server sshd[1574]: Accepted publickey for admin from 10.0.2.2 port 39958 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T07:02:34.305009+00:00 server sshd[1574]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T07:02:34.308927+00:00 server systemd-logind[637]: New session 9 of user admin.
+2025-11-28T07:05:01.599327+00:00 server CRON[1655]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:05:01.601792+00:00 server CRON[1655]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:05:20.577598+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/adduser dev
+2025-11-28T07:05:20.578348+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:05:20.668632+00:00 server groupadd[1664]: group added to /etc/group: name=dev, GID=1001
+2025-11-28T07:05:20.673477+00:00 server groupadd[1664]: group added to /etc/gshadow: name=dev
+2025-11-28T07:05:20.674849+00:00 server groupadd[1664]: new group: name=dev, GID=1001
+2025-11-28T07:05:20.700318+00:00 server useradd[1671]: new user: name=dev, UID=1001, GID=1001, home=/home/dev, shell=/bin/bash, from=/dev/pts/1
+2025-11-28T07:05:46.355295+00:00 server passwd[1684]: pam_unix(passwd:chauthtok): password changed for dev
+2025-11-28T07:05:51.068575+00:00 server chfn[1693]: changed user 'dev' information
+2025-11-28T07:05:52.204064+00:00 server gpasswd[1701]: members of group users set by root to dev
+2025-11-28T07:05:52.207287+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:12:37.694326+00:00 server sshd[1760]: Connection closed by authenticating user dev 10.0.2.2 port 48300 [preauth]
+2025-11-28T07:15:01.427225+00:00 server CRON[1775]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:15:01.429256+00:00 server CRON[1775]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:15:24.926909+00:00 server su[1780]: (to dev) admin on pts/0
+2025-11-28T07:15:24.934980+00:00 server su[1780]: pam_unix(su-l:session): session opened for user dev(uid=1001) by admin(uid=1000)
+2025-11-28T07:17:04.749139+00:00 server CRON[1813]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:17:04.753600+00:00 server CRON[1813]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:19:41.685360+00:00 server su[1780]: pam_unix(su-l:session): session closed for user dev
+2025-11-28T07:19:57.912648+00:00 server su: pam_unix(su-l:auth): authentication failure; logname=admin uid=1000 euid=0 tty=/dev/pts/0 ruser=admin rhost=  user=dev
+2025-11-28T07:20:00.030046+00:00 server su[1837]: FAILED SU (to dev) admin on pts/0
+2025-11-28T07:20:06.382086+00:00 server su[1838]: (to dev) admin on pts/0
+2025-11-28T07:20:06.440731+00:00 server su[1838]: pam_unix(su-l:session): session opened for user dev(uid=1001) by admin(uid=1000)
+2025-11-28T07:20:49.454755+00:00 server sudo:      dev : user NOT in sudoers ; TTY=pts/0 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/nano sshd_config
+2025-11-28T07:20:56.607353+00:00 server sshd[1859]: Connection closed by authenticating user dev 10.0.2.2 port 49176 [preauth]
+2025-11-28T07:25:01.554452+00:00 server CRON[1889]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:25:01.562328+00:00 server CRON[1889]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:30:56.837837+00:00 server su[1838]: pam_unix(su-l:session): session closed for user dev
+2025-11-28T07:31:21.809590+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/nano sshd_config
+2025-11-28T07:31:21.810317+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:34:52.884408+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:35:01.775726+00:00 server CRON[1964]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:35:01.778539+00:00 server CRON[1964]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:35:14.737483+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2025-11-28T07:35:14.738169+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:35:14.744731+00:00 server sshd[1570]: Received signal 15; terminating.
+2025-11-28T07:35:14.780792+00:00 server sshd[1976]: Server listening on 0.0.0.0 port 22.
+2025-11-28T07:35:14.780877+00:00 server sshd[1976]: Server listening on :: port 22.
+2025-11-28T07:35:14.782632+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:35:22.058455+00:00 server sshd[1977]: Accepted password for dev from 10.0.2.2 port 59142 ssh2
+2025-11-28T07:35:22.066787+00:00 server sshd[1977]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-28T07:35:22.081228+00:00 server systemd-logind[637]: New session 15 of user dev.
+2025-11-28T07:35:22.098962+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-28T07:35:50.986513+00:00 server sshd[1630]: Received disconnect from 10.0.2.2 port 39958:11: disconnected by user
+2025-11-28T07:35:50.995272+00:00 server sshd[1630]: Disconnected from user admin 10.0.2.2 port 39958
+2025-11-28T07:35:50.995757+00:00 server sshd[1574]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T07:35:50.996003+00:00 server systemd-logind[637]: Session 9 logged out. Waiting for processes to exit.
+2025-11-28T07:35:50.996067+00:00 server systemd-logind[637]: Removed session 9.
+2025-11-28T07:36:19.240464+00:00 server sshd[2094]: Accepted publickey for admin from 10.0.2.2 port 52882 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T07:36:19.242050+00:00 server sshd[2094]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T07:36:19.245658+00:00 server systemd-logind[637]: New session 17 of user admin.
+2025-11-28T07:38:30.718371+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/ls /home/dev
+2025-11-28T07:38:30.719136+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T07:38:30.721314+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T07:45:02.010766+00:00 server CRON[2216]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T07:45:02.012713+00:00 server CRON[2216]: pam_unix(cron:session): session closed for user root
+2025-11-28T07:52:26.255552+00:00 server sshd[2072]: Received disconnect from 10.0.2.2 port 59142:11: disconnected by user
+2025-11-28T07:52:26.263767+00:00 server sshd[2072]: Disconnected from user dev 10.0.2.2 port 59142
+2025-11-28T07:52:26.264083+00:00 server systemd-logind[637]: Session 15 logged out. Waiting for processes to exit.
+2025-11-28T07:52:26.264331+00:00 server sshd[1977]: pam_unix(sshd:session): session closed for user dev
+2025-11-28T07:52:26.264726+00:00 server systemd-logind[637]: Removed session 15.
+2025-11-28T07:52:30.215244+00:00 server sshd[2141]: Received disconnect from 10.0.2.2 port 52882:11: disconnected by user
+2025-11-28T07:52:30.222728+00:00 server sshd[2141]: Disconnected from user admin 10.0.2.2 port 52882
+2025-11-28T07:52:30.223037+00:00 server sshd[2094]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T07:52:30.223203+00:00 server systemd-logind[637]: Session 17 logged out. Waiting for processes to exit.
+2025-11-28T07:52:30.223255+00:00 server systemd-logind[637]: Removed session 17.
+2025-11-28T07:52:36.403877+00:00 server (sd-pam): pam_unix(systemd-user:session): session closed for user dev
+2025-11-28T07:52:39.775215+00:00 server login[864]: pam_unix(login:session): session closed for user admin
+2025-11-28T07:52:39.786638+00:00 server systemd-logind[637]: Session 1 logged out. Waiting for processes to exit.
+2025-11-28T07:52:39.800644+00:00 server systemd-logind[637]: Removed session 1.
+2025-11-28T07:52:48.392491+00:00 server login[2297]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-28T07:52:48.392747+00:00 server login[2297]: PAM adding faulty module: pam_lastlog.so
+2025-11-28T07:52:50.576233+00:00 server login[2297]: pam_unix(login:auth): check pass; user unknown
+2025-11-28T07:52:50.576442+00:00 server login[2297]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2025-11-28T07:52:53.793528+00:00 server login[2297]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+2025-11-28T07:52:55.851399+00:00 server systemd-logind[637]: Power key pressed short.
+2025-11-28T07:52:55.851531+00:00 server systemd-logind[637]: Powering off...
+2025-11-28T07:52:55.872668+00:00 server systemd-logind[637]: System is powering down.
+2025-11-28T13:42:49.965784+00:00 server systemd-logind[590]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-28T13:42:49.965788+00:00 server systemd-logind[590]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-11-28T13:42:49.965791+00:00 server systemd-logind[590]: New seat seat0.
+2025-11-28T13:42:49.965813+00:00 server systemd-logind[590]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-11-28T13:42:49.965847+00:00 server polkitd[579]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-28T13:42:49.965851+00:00 server polkitd[579]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-28T13:42:49.959688+00:00 server polkitd[579]: Finished loading, compiling and executing 6 rules
+2025-11-28T13:42:49.963638+00:00 server polkitd[579]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-28T13:42:55.421790+00:00 server login[788]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-28T13:42:55.421915+00:00 server login[788]: PAM adding faulty module: pam_lastlog.so
+2025-11-28T13:42:58.229850+00:00 server login[788]: pam_unix(login:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T13:42:58.252022+00:00 server systemd-logind[590]: New session 1 of user admin.
+2025-11-28T13:42:58.266000+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T13:43:11.113011+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-11-28T13:43:11.113426+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:43:11.157573+00:00 server sshd[924]: Server listening on 0.0.0.0 port 22.
+2025-11-28T13:43:11.157661+00:00 server sshd[924]: Server listening on :: port 22.
+2025-11-28T13:43:11.159261+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:42:13.042947+00:00 server sshd[935]: Accepted publickey for admin from 10.0.2.2 port 45292 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T13:42:13.044499+00:00 server sshd[935]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T13:42:13.048058+00:00 server systemd-logind[590]: New session 3 of user admin.
+2025-11-28T13:44:48.053473+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc/ssh ; USER=root ; COMMAND=/usr/bin/nano sshd_config
+2025-11-28T13:44:48.054255+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:45:01.452052+00:00 server CRON[1036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T13:45:01.455125+00:00 server CRON[1036]: pam_unix(cron:session): session closed for user root
+2025-11-28T13:45:07.499751+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:45:34.862807+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=./serv.sh
+2025-11-28T13:45:34.863670+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:45:34.870784+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:53:43.544984+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2025-11-28T13:53:43.553491+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:54:14.157629+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:54:38.662001+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano serv.sh
+2025-11-28T13:54:38.662871+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:55:01.532202+00:00 server CRON[1128]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T13:55:01.540563+00:00 server CRON[1128]: pam_unix(cron:session): session closed for user root
+2025-11-28T13:55:52.817581+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:55:57.994414+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=./serv.sh
+2025-11-28T13:55:57.995128+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:55:58.003476+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:56:40.738732+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2025-11-28T13:56:40.740723+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:56:54.077283+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:57:00.618579+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano serv.sh
+2025-11-28T13:57:00.619174+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:57:09.624587+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:57:26.007342+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nano serv.sh
+2025-11-28T13:57:26.007905+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T13:59:02.232840+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T13:59:08.426268+00:00 server sshd[1004]: Received disconnect from 10.0.2.2 port 45292:11: disconnected by user
+2025-11-28T13:59:08.426604+00:00 server sshd[1004]: Disconnected from user admin 10.0.2.2 port 45292
+2025-11-28T13:59:08.427517+00:00 server sshd[935]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T13:59:08.430363+00:00 server systemd-logind[590]: Session 3 logged out. Waiting for processes to exit.
+2025-11-28T13:59:08.431147+00:00 server systemd-logind[590]: Removed session 3.
+2025-11-28T14:05:01.648806+00:00 server CRON[1271]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:05:01.653012+00:00 server CRON[1271]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:15:01.983931+00:00 server CRON[1342]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:15:01.985902+00:00 server CRON[1342]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:17:02.158925+00:00 server CRON[1359]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:17:02.162583+00:00 server CRON[1359]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:25:01.264225+00:00 server CRON[1408]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:25:01.272046+00:00 server CRON[1408]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:35:01.193593+00:00 server CRON[1467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:35:01.195538+00:00 server CRON[1467]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:45:01.838289+00:00 server CRON[1531]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:45:01.840554+00:00 server CRON[1531]: pam_unix(cron:session): session closed for user root
+2025-11-28T14:55:01.094398+00:00 server CRON[1603]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T14:55:01.096355+00:00 server CRON[1603]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:05:01.205319+00:00 server CRON[1671]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:05:01.207711+00:00 server CRON[1671]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:15:01.360782+00:00 server CRON[1741]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:15:01.368389+00:00 server CRON[1741]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:17:01.423767+00:00 server CRON[1757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:17:01.426071+00:00 server CRON[1757]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:25:01.567182+00:00 server CRON[1811]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:25:01.569205+00:00 server CRON[1811]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:35:01.304266+00:00 server CRON[1882]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:35:01.306204+00:00 server CRON[1882]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:45:01.986368+00:00 server CRON[1954]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:45:01.988359+00:00 server CRON[1954]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:55:01.056592+00:00 server CRON[2022]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-28T15:55:01.058729+00:00 server CRON[2022]: pam_unix(cron:session): session closed for user root
+2025-11-28T15:58:46.969066+00:00 server sshd[2049]: Accepted publickey for admin from 10.0.2.2 port 34408 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-28T15:58:46.977733+00:00 server sshd[2049]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-28T15:58:46.977965+00:00 server systemd-logind[590]: New session 20 of user admin.
+2025-11-28T15:58:51.127449+00:00 server sshd[2128]: Received disconnect from 10.0.2.2 port 34408:11: disconnected by user
+2025-11-28T15:58:51.134932+00:00 server sshd[2128]: Disconnected from user admin 10.0.2.2 port 34408
+2025-11-28T15:58:51.135329+00:00 server sshd[2049]: pam_unix(sshd:session): session closed for user admin
+2025-11-28T15:58:51.135552+00:00 server systemd-logind[590]: Session 20 logged out. Waiting for processes to exit.
+2025-11-28T15:58:51.135613+00:00 server systemd-logind[590]: Removed session 20.
+2025-11-28T15:59:00.519169+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin/.ssh ; USER=root ; COMMAND=/usr/sbin/shutdown now
+2025-11-28T15:59:00.519717+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-28T15:59:00.524201+00:00 server systemd-logind[590]: The system will power off now!
+2025-11-28T15:59:00.540260+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-28T15:59:00.546070+00:00 server systemd-logind[590]: System is powering down.
+2025-11-30T04:00:52.070565+00:00 server systemd-logind[606]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-11-30T04:00:52.070569+00:00 server systemd-logind[606]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-11-30T04:00:52.070572+00:00 server systemd-logind[606]: New seat seat0.
+2025-11-30T04:00:52.070614+00:00 server polkitd[590]: Loading rules from directory /etc/polkit-1/rules.d
+2025-11-30T04:00:52.070620+00:00 server polkitd[590]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-11-30T04:00:52.024073+00:00 server polkitd[590]: Finished loading, compiling and executing 6 rules
+2025-11-30T04:00:52.024228+00:00 server polkitd[590]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-11-30T04:00:52.152675+00:00 server systemd-logind[606]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-11-30T04:00:57.080783+00:00 server login[822]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2025-11-30T04:00:57.080938+00:00 server login[822]: PAM adding faulty module: pam_lastlog.so
+2025-11-30T04:00:59.442888+00:00 server login[822]: pam_unix(login:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-30T04:00:59.469548+00:00 server systemd-logind[606]: New session 1 of user admin.
+2025-11-30T04:00:59.493188+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-30T04:00:07.139035+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/ssh systemctl start ssh
+2025-11-30T04:00:07.139737+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:00:07.151681+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T04:00:25.377076+00:00 server polkitd[590]: Registered Authentication Agent for unix-process:1004:6019 (system bus name :1.15 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN.UTF-8)
+2025-11-30T04:00:50.406859+00:00 server polkit-agent-helper-1[1014]: pam_unix(polkit-1:auth): conversation failed
+2025-11-30T04:00:50.408519+00:00 server polkit-agent-helper-1[1014]: pam_unix(polkit-1:auth): auth could not identify password for [admin]
+2025-11-30T04:00:50.408754+00:00 server polkitd[590]: Unregistered Authentication Agent for unix-process:unknown (system bus name :1.15, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN.UTF-8) (disconnected from bus)
+2025-11-30T04:00:50.408834+00:00 server polkitd[590]: Operator of unix-process:unknown FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.16 [<unknown>] (owned by unix-user:admin)
+2025-11-30T04:01:09.033836+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-11-30T04:01:09.034626+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:01:09.085078+00:00 server sshd[1025]: Server listening on 0.0.0.0 port 22.
+2025-11-30T04:01:09.085195+00:00 server sshd[1025]: Server listening on :: port 22.
+2025-11-30T04:01:09.086894+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T04:01:18.852958+00:00 server sudo:    admin : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2025-11-30T04:01:18.853422+00:00 server sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:01:23.158975+00:00 server sudo: pam_unix(sudo-i:session): session closed for user root
+2025-11-30T04:01:28.976565+00:00 server sudo:    admin : TTY=tty1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-11-30T04:01:28.977452+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:01:29.666754+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T04:02:45.537888+00:00 server sshd[1051]: Accepted publickey for admin from 10.0.2.2 port 53650 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-30T04:02:45.539459+00:00 server sshd[1051]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-30T04:02:45.543010+00:00 server systemd-logind[606]: New session 3 of user admin.
+2025-11-30T04:02:51.394978+00:00 server sshd[1108]: Received disconnect from 10.0.2.2 port 53650:11: disconnected by user
+2025-11-30T04:02:51.395122+00:00 server sshd[1108]: Disconnected from user admin 10.0.2.2 port 53650
+2025-11-30T04:02:51.395766+00:00 server sshd[1051]: pam_unix(sshd:session): session closed for user admin
+2025-11-30T04:02:51.398392+00:00 server systemd-logind[606]: Session 3 logged out. Waiting for processes to exit.
+2025-11-30T04:02:51.398983+00:00 server systemd-logind[606]: Removed session 3.
+2025-11-30T04:02:53.653265+00:00 server sshd[1119]: Accepted publickey for admin from 10.0.2.2 port 44846 ssh2: ED25519 SHA256:ypsK1XKyE7PhwOCHUonLjk7ulPSO5oUKI1BymR3yy9w
+2025-11-30T04:02:53.655058+00:00 server sshd[1119]: pam_unix(sshd:session): session opened for user admin(uid=1000) by admin(uid=0)
+2025-11-30T04:02:53.658057+00:00 server systemd-logind[606]: New session 4 of user admin.
+2025-11-30T04:05:01.089743+00:00 server CRON[1203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:05:01.092009+00:00 server CRON[1203]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:05:01.673137+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+2025-11-30T04:05:01.673499+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:06:21.245933+00:00 server sshd[1216]: Accepted password for dev from 10.0.2.2 port 33086 ssh2
+2025-11-30T04:06:21.248316+00:00 server sshd[1216]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T04:06:21.261179+00:00 server systemd-logind[606]: New session 6 of user dev.
+2025-11-30T04:06:21.280702+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T04:08:46.501315+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T04:09:08.772799+00:00 server sudo:      dev : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/dev ; USER=root ; COMMAND=/usr/bin/tail -f /var/auth.log
+2025-11-30T04:09:31.318113+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+2025-11-30T04:09:31.319023+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T04:15:01.097764+00:00 server CRON[1368]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:15:01.105496+00:00 server CRON[1368]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:17:01.104624+00:00 server CRON[1384]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:17:01.112451+00:00 server CRON[1384]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:25:01.118094+00:00 server CRON[1437]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:25:01.120549+00:00 server CRON[1437]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:35:01.126179+00:00 server CRON[1505]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:35:01.128297+00:00 server CRON[1505]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:45:01.133552+00:00 server CRON[1574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:45:01.135595+00:00 server CRON[1574]: pam_unix(cron:session): session closed for user root
+2025-11-30T04:55:01.143419+00:00 server CRON[1687]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T04:55:01.145578+00:00 server CRON[1687]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:05:01.151265+00:00 server CRON[1756]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:05:01.153295+00:00 server CRON[1756]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:15:01.164528+00:00 server CRON[1856]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:15:01.167079+00:00 server CRON[1856]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:16:51.535245+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:17:01.171428+00:00 server CRON[1886]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:17:01.173377+00:00 server CRON[1886]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:17:40.309080+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sudo_login
+2025-11-30T05:17:40.309836+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:17:44.568083+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:17:50.013891+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sudo_login auth.log
+2025-11-30T05:17:50.014498+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:17:50.022679+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:18:58.554620+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep Failed password auth.log
+2025-11-30T05:18:58.555583+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:18:58.558063+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:19:16.072944+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' auth.log
+2025-11-30T05:19:16.073487+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:19:16.075977+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:19:59.913533+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+2025-11-30T05:19:59.914341+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:20:40.366467+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:21:55.878824+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' auth.log
+2025-11-30T05:21:55.887282+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:21:55.887332+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:25:01.179117+00:00 server CRON[1969]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:25:01.181147+00:00 server CRON[1969]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:33:29.696760+00:00 server sshd[1285]: Received disconnect from 10.0.2.2 port 33086:11: disconnected by user
+2025-11-30T05:33:29.700833+00:00 server sshd[1285]: Disconnected from user dev 10.0.2.2 port 33086
+2025-11-30T05:33:29.701208+00:00 server sshd[1216]: pam_unix(sshd:session): session closed for user dev
+2025-11-30T05:33:29.701393+00:00 server systemd-logind[606]: Session 6 logged out. Waiting for processes to exit.
+2025-11-30T05:33:29.701876+00:00 server systemd-logind[606]: Removed session 6.
+2025-11-30T05:35:01.186777+00:00 server CRON[2051]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:35:01.188805+00:00 server CRON[2051]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:37:58.860968+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh.service
+2025-11-30T05:37:58.902680+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:38:41.366401+00:00 server sshd[2082]: Accepted password for dev from 10.0.2.2 port 50504 ssh2
+2025-11-30T05:38:41.375330+00:00 server sshd[2082]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T05:38:41.379486+00:00 server systemd-logind[606]: New session 19 of user dev.
+2025-11-30T05:38:41.392359+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T05:39:03.980330+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:39:05.961302+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh.service
+2025-11-30T05:39:05.961903+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:39:22.607028+00:00 server sshd[2175]: Received disconnect from 10.0.2.2 port 50504:11: disconnected by user
+2025-11-30T05:39:22.607253+00:00 server sshd[2175]: Disconnected from user dev 10.0.2.2 port 50504
+2025-11-30T05:39:22.607435+00:00 server sshd[2082]: pam_unix(sshd:session): session closed for user dev
+2025-11-30T05:39:22.610305+00:00 server systemd-logind[606]: Session 19 logged out. Waiting for processes to exit.
+2025-11-30T05:39:22.610933+00:00 server systemd-logind[606]: Removed session 19.
+2025-11-30T05:39:32.894573+00:00 server (sd-pam): pam_unix(systemd-user:session): session closed for user dev
+2025-11-30T05:42:53.824016+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:45:01.195739+00:00 server CRON[2244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:45:01.197691+00:00 server CRON[2244]: pam_unix(cron:session): session closed for user root
+2025-11-30T05:50:28.384090+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh.service --since '5 hour ago'
+2025-11-30T05:50:28.392462+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T05:52:01.565205+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T05:55:01.202870+00:00 server CRON[2317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T05:55:01.205042+00:00 server CRON[2317]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:05:01.212593+00:00 server CRON[2386]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:05:01.214818+00:00 server CRON[2386]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:15:01.220586+00:00 server CRON[2453]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:15:01.222563+00:00 server CRON[2453]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:17:01.227942+00:00 server CRON[2467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:17:01.235917+00:00 server CRON[2467]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:25:01.235440+00:00 server CRON[2523]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:25:01.244871+00:00 server CRON[2522]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:25:01.245388+00:00 server CRON[2523]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:25:01.252259+00:00 server CRON[2522]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:35:01.260806+00:00 server CRON[2617]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:35:01.262778+00:00 server CRON[2617]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:45:01.271547+00:00 server CRON[2677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:45:01.278029+00:00 server CRON[2677]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:47:01.277999+00:00 server CRON[2689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:47:01.287218+00:00 server CRON[2689]: pam_unix(cron:session): session closed for user root
+2025-11-30T06:55:01.293536+00:00 server CRON[2747]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T06:55:01.295564+00:00 server CRON[2747]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:05:01.301318+00:00 server CRON[2808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:05:01.303362+00:00 server CRON[2808]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:15:01.310587+00:00 server CRON[2872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:15:01.312612+00:00 server CRON[2872]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:17:01.316805+00:00 server CRON[2885]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:17:01.325847+00:00 server CRON[2885]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:25:01.325923+00:00 server CRON[2939]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:25:01.327964+00:00 server CRON[2939]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:33:05.136949+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp rsyslog.conf /home/admin/home/admin/rsyslog.conf.backup
+2025-11-30T07:33:05.145837+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T07:33:05.147357+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T07:34:58.559726+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp rsyslog.conf /home/admin/home/admin/rsyslog.conf.backup
+2025-11-30T07:34:58.560323+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T07:34:58.562415+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T07:35:01.333124+00:00 server CRON[3003]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:35:01.335619+00:00 server CRON[3003]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:35:10.325819+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/cp rsyslog.conf /home/admin/rsyslog.conf.backup
+2025-11-30T07:35:10.326472+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T07:35:10.328768+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T07:45:01.342250+00:00 server CRON[3068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:45:01.344221+00:00 server CRON[3068]: pam_unix(cron:session): session closed for user root
+2025-11-30T07:53:57.148485+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T07:53:57.156447+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T07:54:37.812234+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T07:54:39.407289+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T07:54:39.407869+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T07:55:01.349716+00:00 server CRON[3125]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T07:55:01.351728+00:00 server CRON[3125]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:05:01.358272+00:00 server CRON[3172]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:05:01.360650+00:00 server CRON[3172]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:15:01.365604+00:00 server CRON[3224]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:15:01.367614+00:00 server CRON[3224]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:15:24.074950+00:00 server sshd[3229]: Accepted password for dev from 10.0.2.2 port 48196 ssh2
+2025-11-30T08:15:24.078050+00:00 server sshd[3229]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T08:15:24.082939+00:00 server systemd-logind[606]: New session 41 of user dev.
+2025-11-30T08:15:24.102384+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T08:15:51.639678+00:00 server sudo:      dev : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/dev ; USER=root ; COMMAND=/usr/bin/nano t.tx
+2025-11-30T08:15:57.496235+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T08:16:06.602796+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T08:16:06.603532+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T08:17:01.372430+00:00 server CRON[3351]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:17:01.374372+00:00 server CRON[3351]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:19:14.191167+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T08:19:16.272553+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T08:19:16.273217+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T08:24:03.464218+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T08:25:01.380571+00:00 server CRON[3418]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:25:01.382600+00:00 server CRON[3418]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:30:38.391551+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T08:30:38.399550+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T08:33:44.889774+00:00 server sshd[3324]: Received disconnect from 10.0.2.2 port 48196:11: disconnected by user
+2025-11-30T08:33:44.897622+00:00 server sshd[3324]: Disconnected from user dev 10.0.2.2 port 48196
+2025-11-30T08:33:44.898086+00:00 server sshd[3229]: pam_unix(sshd:session): session closed for user dev
+2025-11-30T08:33:44.898297+00:00 server systemd-logind[606]: Session 41 logged out. Waiting for processes to exit.
+2025-11-30T08:33:44.898365+00:00 server systemd-logind[606]: Removed session 41.
+2025-11-30T08:33:55.142260+00:00 server (sd-pam): pam_unix(systemd-user:session): session closed for user dev
+2025-11-30T08:33:56.771198+00:00 server sshd[3489]: Accepted password for dev from 10.0.2.2 port 59074 ssh2
+2025-11-30T08:33:56.772725+00:00 server sshd[3489]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T08:33:56.778861+00:00 server systemd-logind[606]: New session 45 of user dev.
+2025-11-30T08:33:56.803788+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T08:34:02.585143+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T08:34:04.960220+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T08:34:04.961043+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T08:35:01.390833+00:00 server CRON[3589]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:35:01.393335+00:00 server CRON[3589]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:41:18.832009+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T08:45:01.398384+00:00 server CRON[3679]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:45:01.406348+00:00 server CRON[3679]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:55:01.408524+00:00 server CRON[3753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T08:55:01.410498+00:00 server CRON[3753]: pam_unix(cron:session): session closed for user root
+2025-11-30T08:57:05.806673+00:00 server sshd[3771]: Connection closed by 10.0.2.2 port 54070
+2025-11-30T08:58:26.093014+00:00 server sshd[3781]: Connection closed by 10.0.2.2 port 53198
+2025-11-30T09:00:04.846584+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T09:00:04.854514+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T09:01:37.946312+00:00 server sshd[3569]: Received disconnect from 10.0.2.2 port 59074:11: disconnected by user
+2025-11-30T09:01:37.954362+00:00 server sshd[3569]: Disconnected from user dev 10.0.2.2 port 59074
+2025-11-30T09:01:37.954793+00:00 server sshd[3489]: pam_unix(sshd:session): session closed for user dev
+2025-11-30T09:01:37.954985+00:00 server systemd-logind[606]: Session 45 logged out. Waiting for processes to exit.
+2025-11-30T09:01:37.955045+00:00 server systemd-logind[606]: Removed session 45.
+2025-11-30T09:01:43.487936+00:00 server sshd[3821]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=dev
+2025-11-30T09:01:45.387487+00:00 server sshd[3821]: Failed password for dev from 10.0.2.2 port 35932 ssh2
+2025-11-30T09:01:49.268639+00:00 server sshd[3821]: Accepted password for dev from 10.0.2.2 port 35932 ssh2
+2025-11-30T09:01:49.270595+00:00 server sshd[3821]: pam_unix(sshd:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T09:01:49.285328+00:00 server systemd-logind[606]: New session 50 of user dev.
+2025-11-30T09:01:49.301551+00:00 server (systemd): pam_unix(systemd-user:session): session opened for user dev(uid=1001) by dev(uid=0)
+2025-11-30T09:01:53.637713+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T09:01:56.230398+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T09:01:56.230973+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T09:05:01.415938+00:00 server CRON[3923]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T09:05:01.423941+00:00 server CRON[3923]: pam_unix(cron:session): session closed for user root
+2025-11-30T09:10:18.717405+00:00 server sshd[3900]: Received disconnect from 10.0.2.2 port 35932:11: disconnected by user
+2025-11-30T09:10:18.726813+00:00 server sshd[3900]: Disconnected from user dev 10.0.2.2 port 35932
+2025-11-30T09:10:18.729245+00:00 server sshd[3821]: pam_unix(sshd:session): session closed for user dev
+2025-11-30T09:10:18.729437+00:00 server systemd-logind[606]: Session 50 logged out. Waiting for processes to exit.
+2025-11-30T09:10:18.729507+00:00 server systemd-logind[606]: Removed session 50.
+2025-11-30T09:10:26.141911+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T09:10:27.169140+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less auth.log
+2025-11-30T09:10:27.169983+00:00 server sudo: pam_unix(sudo:session): session opened for user root(uid=0) by admin(uid=1000)
+2025-11-30T09:13:48.623789+00:00 server sudo: pam_unix(sudo:session): session closed for user root
+2025-11-30T09:15:01.426107+00:00 server CRON[3950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-11-30T09:15:01.428410+00:00 server CRON[3950]: pam_unix(cron:session): session closed for user root
+2025-11-30T09:16:06.297569+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cp auth.log /home/admin/auth.log.txt
