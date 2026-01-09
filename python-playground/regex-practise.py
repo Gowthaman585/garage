@@ -5,14 +5,20 @@ import re
 with open("copy.txt",'r') as file:
 	lines = file.readlines()
 
-# increamenting variable
-ssh_count = 0
+# increamenting variable for counting successful ssh-login attemnpts
+ssh_pass = 0
+
+# incrementing variable for failed ssh-login attempts
+ssh_fail = 0
 
 # snippet to count the ssh-log lines particularly
 for i in lines:
 	if re.search("sshd",i):
-		ssh_count = ssh_count + 1
+		if re.search("Accepted publickey",i) or re.search("Accepted password",i):
+			ssh_pass = ssh_pass + 1
+		if re.search("Failed password",i):
+			ssh_fail = ssh_fail + 1
 
-# displaying total number of ssh log lines
-print(f" Total amount ssh log lines {ssh_count}")
-
+# displaying  the detials for ssh-login event details
+print(f"Total no of  successful ssh-login attempts : {ssh_pass}")
+print(f"Total no of failed ssh-login attempts : {ssh_fail}")
