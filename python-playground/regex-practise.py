@@ -42,10 +42,13 @@ ssh_pass = pubkey + passwd
 ssh_fail = fpass + fdrops + fkey
 
 # displaying  the detials for ssh-login event details
-print(f"Total no of ssh-login attempts : {ssh_pass + ssh_fail}")
-print(f"Total no of successful ssh-login attempts : {ssh_pass}")
-print(f"	password based logins : {passwd}	key based logins : {pubkey}")
-print(f"Total no of failed ssh-login attempts : {ssh_fail}")
-print(f"	password failed attempts : {fpass}	key failed attempts : {fkey}	connection drop out : {fdrops}")
+print(f"Total no of ssh-login attempts 		: {ssh_pass + ssh_fail}")
+print(f"Total no of successful ssh-logins	: {ssh_pass}")
+print(f"	└─ password based logins 	: {passwd}")
+print(f"	└─ key based logins 		: {pubkey}")
+print(f"Total no of failed ssh-login attempts 	: {ssh_fail}")
+print(f"	└─ password failed attempts 	: {fpass}")
+print(f"	└─ key failed attempts 		: {fkey}")
+print(f"	└─ connection drop out 		: {fdrops}")
 print(f"Total no of ssh-logouts : {ssh_disc}")
 print(f"Total no of active ssh-sessions : {ssh_pass-ssh_disc}")
