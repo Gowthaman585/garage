@@ -551,4 +551,3 @@
 2025-11-30T09:13:48.623789+00:00 server sudo: pam_unix(sudo:session): session closed for user root
 2025-11-30T09:15:01.426107+00:00 server CRON[3950]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
 2025-11-30T09:15:01.428410+00:00 server CRON[3950]: pam_unix(cron:session): session closed for user root
-2025-11-30T09:16:06.297569+00:00 server sudo:    admin : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cp auth.log /home/admin/auth.log.txt
