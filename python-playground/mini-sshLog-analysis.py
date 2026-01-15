@@ -1,7 +1,7 @@
 import re
 
 # Opening the file in read mode to analyze
-with open("copy.txt",'r') as file:
+with open("sample.log",'r') as file:
 	lines = file.readlines()
 
 # var for counting successful ssh-login attemnpts
@@ -42,6 +42,9 @@ ssh_pass = pubkey + passwd
 ssh_fail = fpass + fdrops + fkey
 
 # displaying  the detials for ssh-login event details
+print(f"This mini ssh-log analysis tool is most suitable  on auth.log")
+print(f"Any other kind of logs may be result in inaccuracy")
+print(f"===================== LOG ANALYSIS COMPLETED =====================")
 print(f"Total no of ssh-login attempts 		: {ssh_pass + ssh_fail}")
 print(f"Total no of successful ssh-logins	: {ssh_pass}")
 print(f"	└─ password based logins 	: {passwd}")
