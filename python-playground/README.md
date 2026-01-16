@@ -30,12 +30,12 @@ As the sample.log file is my personal server logs , so there is no chance for de
 you can see the difference completely by comaparing the two results of these two log file
 
 # sample.log
-![sample.log file test results](images/sample.log)
+![sample.log file test results](images/sample.png)
 As you can see almost all log attempts are successful and there is minimal level failed logins attempts 
 so by we can conclude it is legitimate log history
 
 # auth.log
-![auth.log file test results](images/auth.log)
+![auth.log file test results](images/auth.png)
 The total number of failed logins is at peak and most of the brute force attacks is always on passwords.
 the high number failed password confirmly indicates the brute force attempt for ssh login via password.
 # ===================================================================
