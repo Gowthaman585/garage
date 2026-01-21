@@ -1,26 +1,19 @@
-import re
-
-count = 0
-
 def pass_sshd_log():
     try:
-        with open("auth.log",'r') as file:
+        with open("auth.log",'r',buffering = 8192) as file:
             for line in file:
-                if re.search(r"sshd\[\d+\]", line):
+                line = line.rstrip()
+                if 'sshd[' in line:
                     yield line
-                else:
-                    continue
     except FileNotFoundError:
         print("No such a File")
 
-"""
-# FOR TESTING PUPROSE 
-# PRINTING FIRST 50 LINE OF VALID LOG LINES WHICH CONTAINS THE KEY TERM SSHD[PROCESS_ID] IN THEIR LOG LINE
 
-
-for log in pass_sshd_log():
-    print(log,end="")
-    count = count + 1
-    if count == 50:
-        break 
-"""
+def split_timestamp_store():
+    unique_month_date = set()
+    for log in pass_sshd_log(): 
+        parts = log.split(maxsplit=2)
+        if len(parts) == 3:
+            month_and_date = parts[0] +" "+ parts[1].lstrip('0')
+            unique_month_date.add(month_and_date)
+    return unique_month_date
