@@ -26,44 +26,18 @@ def timestamp_rem():
         if len(parts) == 4:
             # parts[0] is month parts[1] is date
             # The .lstrip is used to remove the trailing zeros from a string 
-            month_and_date = parts[0] +" "+ parts[1].lstrip('0')+" "+parts[2]
+            timestamp = parts[0] +" "+ parts[1].lstrip('0')+" "+parts[2]
             # saving the remaining parts of log to further finding out the ip and username
-            ip_and_username_part = parts[3]
+            message = parts[3]
             # returning both the variable to next level analysis
-            yield month_and_date , ip_and_username_part
+            yield timestamp , message
 
 
-def split_ip_username():
+def suspicious_logs():
+    
+    for timestamp , message in timestamp_rem():
+        if "error:" in message:
+            pass
 
-    # Using the dictinary to map the ip along with the date to know at which are all the date the ip is used
-    ip_month_date = {}
-    # Using the variable to find the odd different sshd logs
-    corrupted_or_suspic_log_count = 0
 
-    # Calling the splitting_month_date_rem() to get the month and date along with the ip and username parts
-    for month_date , user_ip in timestamp_rem():
-        # getting the start and end index of ip part form hte user_ip string
-        start_index = user_ip.find("from ")+5
-        end_index = user_ip.find(" ",start_index)
 
-        if start_index == -1 or end_index== -1:
-            corrupted_or_suspic_log_count = corrupted_or_suspic_log_count + 1
-        else:
-            # the ip is sliced successfully
-            ip = user_ip[start_index:end_index]
-        
-
-        # reusing the start_index and end_index variable to find out the username
-        start_index = user_ip.find("for ")+4
-        end_index = user_ip.find(" ",start_index)
-
-        # Same condition to check valid sshd log
-        if start_index == -1 or end_index == -1:
-            corrupted_or_suspic_log_count = corrupted_or_suspic_log_count + 1
-        else:
-            username = user_ip[start_index:end_index]
-    # Temperory line to check the working
-    return corrupted_or_suspic_log_count
-
-l = split_ip_username()
-print(l)
