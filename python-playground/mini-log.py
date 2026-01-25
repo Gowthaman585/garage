@@ -1,7 +1,7 @@
 import re
 
 # Opening the file in read mode to analyze
-with open("auth.log",'r') as file:
+with open("sample.log",'r') as file:
 	lines = file.readlines()
 
 # var for counting successful ssh-login attemnpts

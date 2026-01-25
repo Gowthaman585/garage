@@ -1,3 +1,6 @@
+# Everything in this repo is just created for practise session only
+
+
 # =================================================================
 				MINI-LOG TOOL
 # =================================================================
@@ -23,10 +26,9 @@ In this repository as you can see two log file are taken for testing purpose
 		this log file is a copy of my personal server log , i just took some copy of it.
 	* auth.log
 		this is huge popular lof file , i downloaded from the internet which is a popular log file for testing detection of brute force attacks
-# ========================================+++++=====================
+# =================================================================
 
 As the sample.log file is my personal server logs , so there is no chance for detecting brute force attempts
-
 you can see the difference completely by comaparing the two results of these two log file
 
 # sample.log
