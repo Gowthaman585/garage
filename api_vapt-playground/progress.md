@@ -10,5 +10,5 @@ I exploited the BOLA vulnerabilite in the crAPI.
 3)I copies the uuid url and replace the uuid with the second user url.to test against the BOLA vulnerability.  
 # SCREEN SHOTS  
 ![image1](images/one.png)  
-![image](image/two.png)  
+![image2](images/two.png)  
 
