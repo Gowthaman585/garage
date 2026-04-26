@@ -8,11 +8,14 @@ line = "Mar 27 13:08:09 ip-10-77-20-248 sshd[1361]: Accepted publickey for ubunt
 # Right part contains the actual message of this log along with the host ip, port and protocol name
 part = line.split(": ",1)
 left_part = part[0]
+print("left_part : ",left_part)
 right_part = part[1]
+print("right_part: ",right_part)
 
 # Spliting the left_part to obtain actual targets
 # holder used to help in separating each string in the leftpart in-order to easy retrive of targets
 holder = left_part.split(" ",4)
+print("holder: ",holder)
 
 # Extraction of actual targets
 # The timestamp are separted into three string so they need to rejoin into one
