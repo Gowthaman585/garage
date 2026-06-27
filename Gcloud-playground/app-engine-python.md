@@ -57,10 +57,10 @@ The app ran on **port 5000** and I previewed it through Cloud Shell's Web Previe
 
 ### ✅ Task 4 – Make a Change to the Code
 
-Now the fun part! I edited `main.py` using `nano` to change the message from `"Hello World!"` to `"Hello, Cruel World!"` 😄
+Now the fun part! I edited `main.py` using `vim` to change the message from `"Hello World!"` to `"Hello, Cruel World!"` 😄
 
 ```bash
-nano main.py
+vim main.py
 ```
 
 Here's what the updated `main.py` looked like:
@@ -124,9 +124,6 @@ Opened the URL from the terminal and the app was live on the internet — showin
 
 This was a really clean and beginner-friendly lab. What I appreciated most was the **local → cloud workflow** — you test everything locally first, then deploy with one command. No fussing with server configs or nginx or anything like that.
 
-Also cool to think that App Engine has been around since **2008** — it's one of the OGs of serverless computing. A lot of the concepts we take for granted today (auto-scaling, managed runtimes) were pioneered right here.
-
-On to the next lab! 💪
 
 ---
 
