@@ -1,0 +1,12 @@
+---
+- name: Benchmark Bash Scripts
+  hosts: local
+  gather_facts: false
+  tasks:
+    - name: Execute awk.sh
+      ansible.builtin.script: ./awk.sh
+    - name: Execute cat-cut.sh
+      ansible.builtin.script: ./cat-cut.sh
+    - name: Execute grep.sh
+      ansible.builtin.script: ./grep.sh
+
