@@ -42,4 +42,3 @@ Seeing this structural output load up in real-time was incredibly satisfying:
 2. **In-Place Swaps:** If a container fails due to a wrong image name, you don't always have to scrap it. Tools like `kubectl set image` let you patch configurations dynamically.
 3. **Networking Logic:** Watching Kubernetes sync directly with GCP's hardware load balancer to provisioning an external IP within minutes is absolute magic.
 
-On to the next cloud challenge! Let me know if you are working through the Google Cloud Foundations Certificate too!
