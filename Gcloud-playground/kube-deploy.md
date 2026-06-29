@@ -1,4 +1,4 @@
-# My Google Kubernetes Engine (GKE) Journey: First Successful Deployment!
+# My Google Kubernetes Engine (GKE) Journey:
 
 Hey everyone! I just completed the **Google Kubernetes Engine: Qwik Start** (GSP100) lab, and I managed to score a perfect **100/100** with 10 minutes still left on the clock! I wanted to document my experience, how I fixed a couple of tricky mistakes along the way, and what the final successful setup looks like.
 
