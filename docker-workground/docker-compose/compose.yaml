@@ -1,0 +1,9 @@
+services:
+  web_server:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    container_name: compose_web
+  database_server:
+    image: redis:alpine
+    container_name: compose_db
