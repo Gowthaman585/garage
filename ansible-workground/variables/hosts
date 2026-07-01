@@ -1,3 +1,3 @@
 [targets]
-ubuntu-server ansible_host=127.0.0.1 ansible_port=2221 greeting="this reply from ubuntu-server"
-rocky-server ansible_host=127.0.0.1 ansible_port=2222  greeting="This reply from rocky-server"
+ubuntu-server ansible_host=127.0.0.1 ansible_port=2221 
+rocky-server ansible_host=127.0.0.1 ansible_port=2222  
