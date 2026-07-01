@@ -1,0 +1,9 @@
+- name: testing var in playbook.yaml
+  hosts: targets
+  gather_facts: false
+  vars:
+    greeting: hi-this-from-the-greetings-variables-inside-playbook.yaml
+  tasks:
+    - name: printing the varibale-content of greeting
+      ansible.builtin.debug:
+        msg: "{{ greeting }}"
