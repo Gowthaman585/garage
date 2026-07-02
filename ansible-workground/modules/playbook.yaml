@@ -1,0 +1,22 @@
+- name: practising-core-modules
+  hosts: targets
+  gather_facts: false
+  tasks:
+    - name: creating directory in containers
+      ansible.builtin.file:
+        path: /opt/msg-dir
+        state: directory
+        mode: '0755'
+    - name: copyting the msg into conatiners directory
+      ansible.builtin.copy:
+        src: message.txt
+        dest: /opt/msg-dir/message-container.txt
+        mode: '0777'
+    - name: running a command in container to print the message in container
+      ansible.builtin.command:
+        cat /opt/msg-dir/message-container.txt
+      register: file_output
+      changed_when: false
+    - name: fetching output from containers
+      ansible.builtin.debug:
+        var: file_output.stdout
