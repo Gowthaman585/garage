@@ -1,0 +1,18 @@
+services:
+  ubuntu_node:
+    image: ubuntu-server:latest
+    container_name: ubuntu-server-module
+    ports:
+      - "2221:22"
+    networks:
+      - ansible_network
+  rocky_node:
+    image: rocky-server:latest
+    container_name: rocky-server-module
+    ports:
+      - "2222:22"
+    networks:
+      - ansible_network
+networks:
+  ansible_network:
+    driver: bridge
